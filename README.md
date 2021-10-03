@@ -4,8 +4,7 @@
 
 ### Github Repository: https://github.com/NathanEwan02/NathanEwan_T1A3
 
-### Trello Board: 
-https://trello.com/b/RYC8wiAs/terminal-app <br></br>
+### Trello Board: https://trello.com/b/RYC8wiAs/terminal-app <br></br>
 
 # **Software Development Plan**
 
@@ -41,6 +40,10 @@ When using the features of the game, the player is often prompted before hand on
 
 ## **Error Handling**
 Most inputs required from the player are accessed using arrow keys, thus drastically minimizing the need for error handling when using tty prompt methods. In addition to this, tty prompt also provides developers with access to methods that check for capitilization, missing spaces and incorrect data types. As for the inputs that do not use the prompt methods, these inputs will be cheacked to ensure they are of the correct data type and display an appropriate error to the user explaning what went wrong. 
+
+# **Control Flow**
+
+![Control Flow](docs/TerminalFlowChart.png)
 
 # **Implementation**
 
